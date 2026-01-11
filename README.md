@@ -1,4 +1,4 @@
-<img width="330" height="183" alt="image" src="https://github.com/user-attachments/assets/1f79aac3-c544-4812-b005-06d64ec858bb" /># Getting Started 
+# Getting Started 
 
 ## 1. Creating a Dialogue Tree
 Right-click in your Project window
