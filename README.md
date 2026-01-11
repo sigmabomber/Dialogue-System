@@ -1,4 +1,4 @@
-# Getting Started 
+<img width="330" height="183" alt="image" src="https://github.com/user-attachments/assets/1f79aac3-c544-4812-b005-06d64ec858bb" /># Getting Started 
 
 ## 1. Creating a Dialogue Tree
 Right-click in your Project window
@@ -221,6 +221,9 @@ Current working flags are "Has[ItemName]
 
 Use ! prefix to check if a flag does NOT exist:
 
+
+
+
 #### Dialogue Tree Example:
 
 <img width="398" height="121" alt="image" src="https://github.com/user-attachments/assets/1cf4a07c-7e31-4ea3-bee5-ea79c1da4fa1" />
@@ -229,7 +232,9 @@ Use ! prefix to check if a flag does NOT exist:
 
 <img width="396" height="235" alt="image" src="https://github.com/user-attachments/assets/7447aabd-8a01-44a7-817e-126f244d922b" />
 
+## Available Items
 
+<table> <tr><th>Item Available</th></tr> <tr><td>Sodacan</td></tr> <tr><td>Battery</td></tr> <tr><td>Ammo</td></tr> <tr><td>Fencekey</td></tr> <tr><td>Revolver</td></tr> <tr><td>Pistol</td></tr> </table>
 
 ## Creating Player Choices
 
@@ -333,11 +338,107 @@ Use ! prefix to check if a flag does NOT exist:
 
 <img width="321" height="149" alt="image" src="https://github.com/user-attachments/assets/571cfd12-46c3-40ec-bdfc-287ac0f26bc6" />
 
-## Start Quest
-
-## Not done yet!
+## Start Objective
 
 ### Requirements for it to work: 
+
+- Objective Name
+- Objective Type
+
+### Objective Types
+
+#### Boolean
+Boolean objectives are like for example: talk to someone, it will stay false until it's  true
+
+#### Count
+Count objectives are like for example: Kill certain enemy 0/10
+
+#### Collective
+Collective objectives are like for example: Collect these items.
+
+<img width="340" height="229" alt="image" src="https://github.com/user-attachments/assets/73553ec4-672c-4063-aecb-9b66abcc7bb9" />
+
+
+## Progress Objective
+
+### Requirements for it to work:
+
+- Objective name
+- Amount to progress
+
+#### If objective doesn't exist when it's called then it won't do anything.
+
+#### It will also complete boolean objectives
+
+<img width="318" height="194" alt="image" src="https://github.com/user-attachments/assets/0bbc81de-34fa-4863-9cc7-55eefcb0dae0" />
+
+
+## Complete Objective
+
+### Requirements for it to work:
+
+- Objective name
+
+#### It will auto complete any objective.
+
+<img width="312" height="157" alt="image" src="https://github.com/user-attachments/assets/d118d221-7fc5-446c-8a26-8f34daebcbbe" />
+
+
+## Spawn Object
+
+### Requirements for it to work:
+
+- Gameobject
+- Transform
+
+#### Transform is for position and won't do anything if not assigned.
+
+<img width="330" height="183" alt="image" src="https://github.com/user-attachments/assets/4cf6ff99-6ec9-4169-8afa-9ad7b77c81f1" />
+
+
+## Destroy Object
+
+### Requirements for it to work:
+
+- Gameobject
+
+
+#### It will destroy any gameobject assigned without fail.
+
+<img width="323" height="178" alt="image" src="https://github.com/user-attachments/assets/fdf06da7-0d32-4328-8a7c-fbc3a9c58e2e" />
+
+## Enable Object
+
+### Requirements for it to work:
+
+- Gameobject
+
+#### It will enable any gameobject assigned without fail. 
+
+<img width="326" height="185" alt="image" src="https://github.com/user-attachments/assets/97997ec5-000b-493a-a766-7acda1aa20f7" />
+
+## Disable Object
+
+### Requirements for it to work:
+
+- Gameobject
+
+#### It will disable any gameobject assigned without fail. 
+
+
+<img width="322" height="190" alt="image" src="https://github.com/user-attachments/assets/c3537835-707f-467b-a5dd-53213813019f" />
+
+
+## Load Scene
+
+### Requirements for it to work:
+
+- Scene Name (string)
+
+  #### It will load a new unity scene, name is needed. To Check Name: File > Build Settings and pick any scene to load
+
+<img width="327" height="196" alt="image" src="https://github.com/user-attachments/assets/238e7f93-527b-44c1-9cca-368ef0ee523d" />
+
 
 
 ## Custom Action 
