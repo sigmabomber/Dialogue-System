@@ -448,7 +448,7 @@ public class CustomAction : MonoBehaviour
 {
     void KillPlayer()
     {
-        # Kill Player logic here
+        // Kill Player logic here
     }
 }
 ```
