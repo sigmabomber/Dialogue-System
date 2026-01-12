@@ -347,13 +347,13 @@ Use ! prefix to check if a flag does NOT exist:
 
 ### Objective Types
 
-#### Boolean
+### Boolean
 Boolean objectives are like for example: talk to someone, it will stay false until it's  true
 
-#### Count
+### Count
 Count objectives are like for example: Kill certain enemy 0/10
 
-#### Collective
+### Collective
 Collective objectives are like for example: Collect these items.
 
 <img width="340" height="229" alt="image" src="https://github.com/user-attachments/assets/73553ec4-672c-4063-aecb-9b66abcc7bb9" />
