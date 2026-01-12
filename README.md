@@ -453,6 +453,61 @@ public class CustomAction : MonoBehaviour
 }
 ```
 
+# Attaching the dialogue onto an NPC
+
+
+## 1. Assigning the NPC Interaction script to the NPC
+
+### Go to the NPC object and click "Add Component" and search for "NPC Interaction"
+
+<img width="242" height="68" alt="image" src="https://github.com/user-attachments/assets/f2b8b0ca-db6f-45b0-afaa-9e2bc5e54ab7" />
+
+### OBS.  Collider Component is a must for it to work and attach it to the same gameobject where NPC Interaction script is.
+
+## 2. Click the + on "Npc Dialogues" 
+<img width="414" height="117" alt="image" src="https://github.com/user-attachments/assets/42f095c5-da3f-45be-bf43-3c9f7dcb4284" />
+
+## 3. Drag and drop the dialogues you have made into the Npc Dialogues.
+
+<img width="398" height="83" alt="image" src="https://github.com/user-attachments/assets/a991ec08-3226-4047-b50f-e12d9ad13ae3" />
+
+### <code style="color: red">NOTE. If there are more than 1 dialogues in an NPC, it will always check the dialogues with flags too see if they are available before those with none.</code>
+
+## Extra NPC Interaction features.
+
+## Make NPC look at player
+
+<img width="245" height="26" alt="image" src="https://github.com/user-attachments/assets/b01a387b-ff86-4d3e-a9cf-0649e4aee03a" />
+
+### Look for the NPC's head and assign "Look at Player" script 
+
+<img width="225" height="116" alt="image" src="https://github.com/user-attachments/assets/79baff9a-43ed-4cad-ac72-d5bb8f50932b" />
+
+### Turn Speed. 
+
+Turn speed is for how fast the Npc will look at the player.
+
+### Return Speed.
+
+Return speed is for how fast the Npc will return back to original direction.
+
+### Max Yaw
+
+Max yaw is for how far the Npc can look left and right.
+
+<img width="412" height="130" alt="image" src="https://github.com/user-attachments/assets/86863056-5307-4fe0-926f-2960bd2bed0e" />
+
+## When having assigned the "Look at Player" script. 
+
+Assign the head gameobject into the "Lap Script" variable and toggle "Look at Player" on
+
+<img width="405" height="56" alt="image" src="https://github.com/user-attachments/assets/9e7db04d-c900-4869-94c7-d9d84a20d755" />
+
+
+
+
+
+
 
 
 
